@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ankihg/basic-angular-app/issues"
   },
-  "homepage": "https://github.com/ankihg/basic-angular-app#readme"
+  "homepage": "https://github.com/ankihg/basic-angular-app#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
 }
