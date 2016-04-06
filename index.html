@@ -4,7 +4,12 @@
     <meta charset="utf-8">
   </head>
   <body>
-    {{'plz respond'}}
+    <section ng-init="rant = 'plz respond'">
+      <h1>{{rant}}</h1>
+      <input ng-model="rant">
+      <button ng-click="rant = ''">delete</button>
+    </section>
+
 
     <!-- <script src="./bower_components/angular/angular.js"></script> -->
     <script src="bundle.js"></script>
