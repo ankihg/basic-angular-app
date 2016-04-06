@@ -1,0 +1,23 @@
+{
+  "name": "basic-angular-app",
+  "description": "my first angular app",
+  "main": "index.js",
+  "authors": [
+    "ankihg <hagelin.annika@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "plz"
+  ],
+  "homepage": "https://github.com/ankihg/basic-angular-app",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.3"
+  }
+}
