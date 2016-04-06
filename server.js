@@ -18,4 +18,13 @@ app.route('/')
     })
   });
 
+app.route('/bundle.js')
+  .get((req, res) => {
+    console.log('get homepage');
+    fs.readFile('./bundle.js', (err, data) => {
+      if (err) return res.status(500).send('error retrieving bundle.js');
+      return res.status(200).set('content-type', 'application/javascript').send(data);
+    })
+  });
+
 app.listen(3000, () => console.log('server speaking'));
